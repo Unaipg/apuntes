@@ -184,6 +184,7 @@ Todas estas prácticas tienen sentido en el marco de un conjunto de valores y pr
 </center>
 
 **Valores del manifiesto ágil**
+
 * Individuos e interacciones sobre procesos y herramientas
     * Es importante fijarse en los miembros del equipo, motivaciones y preferencias e interacciones
     * Si las personas no se comprometen con el proceso, este no funcionará
@@ -367,6 +368,7 @@ Enfoque basado en TDD, XP y metodolofías ágiles en el que los tests ayudan a e
 #### Elementos de los tests
 
 Las partes de la ejecución de un test son:
+
 1. Crear un estado de comienzo definido
 2. Ejecutar código de prueba que llama al método a probar
 3. Comprobar que el estado final se corresponde con el esperado
@@ -412,6 +414,7 @@ Los tests automatizados deben ser:
 #### TDD, Test Driven Development
 
 Es una práctica de desarrollo dentro de XP aunque se puede utilizar en cualquier otra metodología. El proceso de desarrollo tiene tres fases:
+
 1. Escribir un test que compruebe la funcionalidad que se va a añadir. Debe fallar.
 2. Escribir un código que haga que el test funcione, aunque sea una solución sucia.
 3. Refactorizar el código.
@@ -425,6 +428,7 @@ El primer paso es saber como probar la funcionalidad centrándonos en las entrad
 Las pruebas permiten fijar algo en el código ya que el código puede cambiarse siempre y cuando pase todas las pruebas.
 
 Tres reglas del Tío Bob
+
 1. No está permitido escribir código para producción a menos que sea para hacer pasar un test que falla.
 2. No está permitido escribir más de un test que falle.
 3. No está permitido escribir más código del que sea suficiente para pasar un test que falla.
