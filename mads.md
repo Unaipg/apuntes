@@ -305,6 +305,7 @@ Los **tableros kanban** permiten que los centros de trabajo hagan un seguimiento
 
 #### Principios de Mary Poppendieck del desarrollo lean de software
 Mary Poppendieck fue una de las primeras personas en proponer aplicar la filosofía lean al desarrollo software. Definió 7 principios para el desarrollo lean de software:
+
 1. Eliminar los desperdicios
     * Producir solo lo necesario en el momento en el que se necesita. Si algo no se utiliza no podemos darnos cuenta de sus fallos.
     * Desperdicios en el desarrollo software
