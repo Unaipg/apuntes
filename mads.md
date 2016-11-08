@@ -170,28 +170,19 @@ Todas estas prácticas tienen sentido en el marco de un conjunto de valores y pr
 
 <center>
 
-| **Gestor de proyectos** | **Lider del equipo**|
-|-------------------------|----------------|
-|Tablero de tareas|Planning pocker|
-|Puntos de historia|Retrospectivas|
-|Diagramas de quemado|Comunicación osmótica|
-|Diagramas de flujo acumulado|Sentarse juntos|
-|Velocidad del proyecto|Servan leadership|
-|Estimación||
-|Temas||
-|Priorización|-|
-
-
-|**Desarrollador** | **Product owner**|
-|------------------|--------|
-|Refactorización|Backlog del producto|
-|Programación por parejas|Item del backlog|
-|Integración continua|Historias de usuario|
-|Sistemas de control de versiones|Ranking relativo|
-|Desarrollo dirigido por tests|Iteración|
-||Release|
+| **Gestor de proyectos** | **Lider del equipo**|**Desarrollador** | **Product owner**|
+|-------------------------|----------------|------------------|--------|
+|Tablero de tareas|Planning pocker|Refactorización|Backlog del producto|
+|Puntos de historia|Retrospectivas|Programación por parejas|Item del backlog|
+|Diagramas de quemado|Comunicación osmótica|Integración continua|Historias de usuario|
+|Diagramas de flujo acumulado|Sentarse juntos|Sistemas de control de versiones|Ranking relativo|
+|Velocidad del proyecto|Servan leadership|Desarrollo dirigido por tests|Iteración|
+|Estimación|||Release|
+|Temas||||
+|Priorización|||||
 
 </center>
+
 **Valores del manifiesto ágil**
 * Individuos e interacciones sobre procesos y herramientas
     * Es importante fijarse en los miembros del equipo, motivaciones y preferencias e interacciones
@@ -216,40 +207,40 @@ Todas estas prácticas tienen sentido en el marco de un conjunto de valores y pr
     * Tres ideas: Lanzar pronto el software, entregar valor continuamente y satisfacer al cliente.
     * Es difícl entender como va a funcionar el software hasta que los clientes lo usan
     * La colaboración debe primar sobre los contratos. Una empresa puede usar software incompleto y generar valor con ello.
-* Welcome changing requirements, even late in development. Agile processes harness change for the customers competitive advantage.
+2. Welcome changing requirements, even late in development. Agile processes harness change for the customers competitive advantage.
     * No es fácil modificar código que ya está hecho.
     * Muchas veces los cambios vienen de cambios en el negocio o para conseguir ventajas competitivas.
     * Los cambios no son errores, son una forma de mejorar y aprender.
-* Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale
+3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale
     * Las iteraciones pequeñas tienen ventajas. Son más fáciles de planificar, los objetivos están más claros, producen productos usables y permiten tener una visión de más alto nivel
     * No se deben perder de vista los objetivos a largo plazo. Una feature grande puede necesitar varias iteraciones.
-* Bussiness people and developers must work together daily throughout the project
+4. Bussiness people and developers must work together daily throughout the project
     * Si el cliente no responde a los desarrolladores en poco tiempo se producen retrasos
     * La interacción permite que el equipo priorice las características de más valor.
     * Un buen product owner puede reducir la cantidad de tiempo que los equipos deben pasar comunicandose, por ejemplo preparando las reuniones.
-* Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+5. Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
     * Si los desarrolladores no trabajan en conjunto y acusan a los demás la atmosfera de trabajo empeora
     * La motivación por el proyecto y la confianza deben fomentarse y eso es trabajo del lider del equipo
-* The most efficent and effective method of conveying information to and within a development team is face-to-face conversation.
+6. The most efficent and effective method of conveying information to and within a development team is face-to-face conversation.
     * Las conversaciones son más valiosas que la documentación, pero estas deben estar preparadas y ser eficientes. Si tienes que hablar con alguien prepara lo que quieres decirle.
     * El fin es crear un sentimiento de comunidad de forma que se cree conocimiento implícito que no sea necesario comunicar una y otra vez.
-* Working software is the primary messure of progress
+7. Working software is the primary messure of progress
     * La mejor manera de medir el progreso es con funcionalidades implementadas y probadas.
     * Al probar el software acabado es más fácil hacerse una idea del progreso que mirando informes y diagramas.
-* Agile processes promote sustainable development. The sponsors, developers and users should be able to maintain a constant pace indefinitely
+8. Agile processes promote sustainable development. The sponsors, developers and users should be able to maintain a constant pace indefinitely
     * No se debe caer en hacer horas extra cuando se acerca la fecha límite porque a la larga no es sostenible.
     * El desarrollo iterativo es más realista porque permite mantener el mismo ritmo durante toda la iteración y estimar mejor qué habrá hecho al final.
-* Continous attention to technical excellence and good design enhances agility
+9. Continous attention to technical excellence and good design enhances agility
     * Se deben usar buenas técnicas, prácticas y herramientas en el desarrollo.
     * Es importante resolver los bugs tan pronto como aparezcan. Cuanto más se tarda en eliminar un bug más difícil es hacerlo.
-* Simplicity -- the art of maximizing the amount of job not done -- is essential
+10. Simplicity -- the art of maximizing the amount of job not done -- is essential
     * Es peor escribir código de más que borrar código.
     * Cuanto mayor sea el código más dependencias tendrá y más difícil será solucionar errores y añadir cambios.
-* The best architectures, requirements and designers emerge from self-organizing teams.
+11. The best architectures, requirements and designers emerge from self-organizing teams.
     * Lo contrario de un equipo auto-organizado es un equipo que sigue ciegamente los diseños propuestos
     * En un equipo ágil todos comparten la responsabilidad de la arquitectura del proyecto
     * En lugar de un gran diseño inicial, las características aparecen de forma incremental. Esto fuerza a usar técnicas que permitan construir el sistema poco a poco.
-* At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
     * Un equipo no solo debe mejorar el software, debe mejorar la manera de construir software
     * Se debe hablar de los errores y lo que se ha hecho mal de manera constructiva para mejorar. También se debe valorar lo que se ha hecho bien.
 
@@ -353,7 +344,6 @@ Mary Poppendieck fue una de las primeras personas en proponer aplicar la filosof
 7. Optimizar el conjunto
     * Todo el equipo debe tener claro el objetivo final dle proyecto y como el software va a añadir valor al usuario final
     * Los contratos deben basarse en la confianza.
-    *
 
 **Diagrama de flujo acumulativo**
 
