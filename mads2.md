@@ -30,6 +30,7 @@ Es importante conocer las condiciones de satisfacción de una historia, también
 
 #### INVEST
 Una buena historia tiene 6 atributos:
+
 1. **Independent**. Dependencias entre las historias crean problemas de priorización y sincronización.
 2. **Negotiable**. No son contratos si no recordatorios de conversaciones.
 3. **Valuable**. Las historias deben ser valiosas para los que pagan.
