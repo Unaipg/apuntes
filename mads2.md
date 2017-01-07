@@ -376,23 +376,113 @@ En XP se fija el coste, el tiempo y la calidad y se negocia el alcance.
 |Single code base|
 
 ## Escalando Ágil
-Lorem ipsum dolor sit amet, consectetur adipisicing
 
+Scrum habla de un equipo de entre 3 y 9 personas, pero a veces es inevitable escalar cuando se trabaja en más de un proyecto o es un proyecto grande que necesita más de 9 personas para su desarrollo.
 
-elit, sed do eiusmod tem
+**Un equipo desarrollando varios productos**
 
-por incididunt ut labore et dolore magna
+Hay un solo PO que prioriza el backlog y un único backlog en el que se colocan las historias de todos los productos. En un tablero Kanban se pueden hacer distintos canales para cada producto.
 
- aliqua. Ut enim ad minim veniam, quis nostrud
+Esto presenta como problema la pérdida de concentración por parte del PO y del equipo ya que la cantidad de información que puede retener un equipo es limitada y porque el cambiar de contexto genera dificultades.
 
-exercitation ullamco laboris nisi ut aliquip ex ea
+#### LeSS Large-Scale Scrum
 
-commodo consequat. Duis aute irure dolor in
+Propuesto por *Craig Larman* y *Bas Vodde*. Hay otras opciones como SAFe y Nexus en las que no vamos a profundizar.
 
-reprehenderit in voluptate velit esse cillum
+**Prácticas e ideas comunes con Scrum**
 
- dolore eu fugiat nulla pariatur. Excepteur sint
+LeSS es una versión ampliada de Scrum por lo que mantiene muchas de sus prácticas e ideas.
 
-occaecat cupidatat non proident, sunt in culpa qui
+* Hay un solo backlog de producto
+* Una única definición de terminado
+* Un único incremento de producto potencialmente entregable
+* Un product owner
+* Los equipos (sean la cantidad que sean) son multidisciplinares
 
-officia deserunt mollit anim id est laborum.
+En LeSS todos los equipos están en un Sprint común con el objetivo de terminar un único producto entregable en cada sprint.
+
+**Producto**
+
+Scrum se basa en desarrollar un producto, no un proyecto. Ese producto será usado y aportará valor a los usuarios y su definición determinará el alcance. Una definición amplia del producto permite:
+
+* Mejorar la priorización de las características centrándonos en el usuario
+* Resover las dependencias usando feature teams (equipos orientados a características)
+* Evitar funcionalidades duplicadas
+
+La definición del producto debe ser lo más centrada en el usuario posible.
+
+**Product Owner**
+
+El product Owner se encarga del backlog del producto. En LeSS solo hay un product owner y un product backlog para un producto completo. Este Product owner no debe trabajar solo en el refinamiento del backlog del producto, debe hacerse por los distintos equipos que trabajan directamente con los otros stakeholders y usuarios.
+
+Cualquier priorización pasa por el product owner.
+
+**Equipos**
+
+Scrum requiere equipos multifuncionales y autogestionados. En LeSS cada miembro de un equipo se dedica 100% a su equipo y los equipos serán grupos de larga duración para asegurar estabilidad. A pesar de la separación entre equipos no hay problema en que se compartan espacios.
+
+Lo mejor es que los equipos construyan features en lugar de componentes.
+
+**Sprint**
+
+Conceptualmente solo hay un sprint a nivel de producto que lleva a un único incremento del producto. En la práctica se debe hacer:
+
+* Un Sprint planning para todos los equipos al mismo tiempo
+* Una revisión de sprint y retrospectiva para todos los equipos a la vez
+* Refinamiento del backlog del producto a nivel de equipos, da igual cuando
+
+En LeSS hay dos Sprint plannings, al primero asisten representantes de todos los equipos y es donde se seleccionan los items, se aclaran dudas y se define el objetivo del sprint. El segundo Sprint planning se hace de manera local en cada equipo, genera un sprint backlog y se centra en la creación de un plan de trabajo para que todos los items estén terminados al final del sprint.
+
+**Daily Scrum**
+
+El scrum diario se realiza por equipos y es igual que el de scrum.
+
+**Coordinación e integración**
+
+En LeSS la coordinación e integración busca una **coordinación descentralizada** para proporcionar límites y una estructura para evitar caos. Hay diferentes formas de coordinar e integrar los equipos.
+
+* Hablar: No hay protocolos, vas y hablas con gente de otros equipos
+* Comunicarse con el código: Se usa integración continua y al integrar el código se debe leer el código añadido por los demás
+* Enviar observadores a los Daily scrums
+* Comunidades de componentes: Listas de correos o grupos de mensajería para compartir información
+
+**Definición de terminado**
+
+En Scrum la definición de terminado es una lista de criterios que debe cumplir el software para cada ítem del backlog. No se debe confundir definición de terminado con criterios de aceptación, la misma definición de terminado se aplica a todos los items del backlog del producto.
+
+En LeSS la definición de terminado debe ser común para todos los equipos.
+
+**Sprint review**
+
+En Scrum es un punto de inspección-adaptación al final de cada Sprint en el cual los clientes y stakeholders examinan los resultados del sprint y discuten cambios y nuevas ideas. Es donde se dirige la dirección del producto.
+
+En LeSS todos los equipos participan en el Sprint review. Se puede usar un formato parecido a las ferias científicas donde cada equipo expone sus avances en el producto.
+
+**Retrospectiva y retrospectiva general**
+
+Cada equipo hace una retrospectiva y después se hace una general con el PO, los scrum masters y los representantes de cada equipo. Se deben explorar los siguientes puntos:
+
+* ¿Cómo de bien están trabajando los equipos juntos?
+* ¿Están funcionando las comunidades en la práctica?
+* ¿Hay que compartir algo que ha hecho el equipo?
+* ¿Los equipos están aprendiendo juntos?
+* ¿Los equipos están cerca de los clientes?
+* ¿Hay asuntos sistémicos organizacionales que causan problemas en como operan los equipos?
+* ¿Lo está haciendo bien el PO?
+* ¿Está manteniendo el PO sus cinco relaciones?
+
+**Refinamiento del backlog del producto**
+
+Es un proceso que se realiza a mitad del sprint para refinar los ítems del backlog y dejarlos listos para Sprints futuros. No debe ocupar más de un 10% del tiempo de sprint. Las actividades clave son:
+
+* Dividir ítems grandes
+* Detallar los ítems hasta que estén listos
+* Estimar
+
+**Otros elementos de LeSS**
+
+* Excelencia técnica
+* Principios
+* Estructura
+* Gestión
+* Adopción
