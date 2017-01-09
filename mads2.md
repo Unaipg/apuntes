@@ -9,6 +9,7 @@ Las historias de usuario nos aportan una manera de tener escrito solo lo suficie
 #### Definición de una historia
 
 Estas historias se escriben en forma de ficha y está compuesta por los siguientes tres aspectos:
+
 * Descripción escrita de la historiam usada como un recordatorio para la planificación.
 * Una conversación sobre la historia que sirve para desgranar los detalles de la misma.
 * Pruebas que contemplan y documentan los detalles y que pueden utilizarse para determinar cuando la historia está completa.
@@ -16,10 +17,12 @@ Estas historias se escriben en forma de ficha y está compuesta por los siguient
 **Formato**
 
 El formato más popular a la hora de formular las historias de usuario es:
+
 * Título de la historia
 * Descripción: Como un *< tipo de usuario >*, quiero *< acción específica que realizo >* para que *< resultado que quiero que ocurra >*
 
 Es importante que una historia de usuario conteste a tres preguntas:
+
 * ¿Quien es el usuario que realiza la acción?
 * ¿Qué quiere hacer el usuario?
 * ¿Por qué lo quiere hacer?
@@ -61,6 +64,7 @@ Son representaciones imaginarias de una persona de cada uno de los roles. Ayuda 
 Es una técnica propuesta por Jeff Patton. Es una actividad de discusión con los clientes en el que se van descubriendo las historias y se agrupan y ordenan para contar una historia con distintos niveles de prioridad. El resultado final es similar a un storyboard de cine.
 
 En el cine los storyboards se realizan a partir de otro medio más impreciso, el guión y se usan para:
+
 * Desarrollar, discutir y probar la historia
 * Medio de comunicación de distintos equipos
 * Estimar el coste de la producción
@@ -77,6 +81,7 @@ En scrum un equipo pequeño hace cambios pequeños que se integran regularmente 
 **Estructura**
 
 Hay tres roles definidos en scrum:
+
 * **Product Owner**: Se encarga de la comunicación del equipo con los stakeholders y es quien mantiene la visión general del proyecto, organiza las prioridades y se encarga de planificar las releases. Se encarga del **Product backlog**
 * **Scrum Master**: Es el lider del equipo, aunque funciona más como un coach. Es parte del equipo pero se encarga también de asegurarse de eliminar impedimentos y preparar y moderar las reuniones y retrospectivas.
 * **Equipo de desarrollo multifuncional**: Es un equipo auto-organizado que se encarga del desarrollo, la calidad del mismo y de mantener un ritmo adecuado. Son los encargados del **Sprint backlog**
@@ -101,10 +106,10 @@ Es la cantidad de puntos de historia que puede completar el equipo en una cantid
 
 **Scrum Checklist**
 <center>
-![Imagen Scrum1](assets/scrum1.png)
+![Imagen Scrum1](https://github.com/Unaipg/apuntes/blob/master/assets/scrum1.png?raw=true)
 </center>
 <center>
-![Imagen Scrum2](assets/scrum2.png)
+![Imagen Scrum2](https://github.com/Unaipg/apuntes/blob/master/assets/scrum2.png?raw=true)
 </center>
 ___
 ## Kanban
@@ -365,10 +370,11 @@ En XP se fija el coste, el tiempo y la calidad y se negocia el alcance.
 **Prácticas secundarias**
 
 |Team|Business|
-|:---:|:---:|
+|---|---|
 |Real customer involvement|Root-cause analysis|
 |Team continuity|Negotiated scope contract|
 |Shrinking teams|Pay-per-use|
+|||
 |||
 |**Programming**|**Deliverying**|
 |Shared code|Incremental deployment|
