@@ -226,6 +226,7 @@ La definición de la cadena de valor por la que pasan los items de trabajo es im
 4. Equilibrar la demanda con el rendimiento
 5. Priorizar
 6. Atacar las fuentes de variabilidad para mejorar la predictibilidad
+
 ---
 ## Kanban vs. Scrum
 
